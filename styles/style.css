@@ -1,14 +1,6 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
-/*
-	Solid State by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
-
-/* Reset */
-
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -1624,7 +1616,7 @@
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("https://hd.unsplash.com/photo-1429081172764-c0ee67ab9afd");
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("/downloads/13217139_728375357303483_7525824813556430080_o.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -3113,12 +3105,23 @@
 			text-transform: uppercase;
 		}
 
+		@media screen and (min-width: 1281px) {
+			#banner {
+			background-image: -webkit-linear-gradient(bottom, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../media/bannerbackground.jpg");
+			background-image: -o-linear-gradient(bottom, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../media/bannerbackground.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../media/bannerbackground.jpg");
+			background-size: auto, cover;
+			background-position: center, center;
+			margin-bottom: -6.5em;
+			}
+		}
+
 		@media screen and (max-width: 1280px) {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("https://hd.unsplash.com/photo-1429081172764-c0ee67ab9afd");
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../media/bannerbackground.jpg");
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3228,7 +3231,7 @@
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("https://hd.unsplash.com/photo-1429081172764-c0ee67ab9afd");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../media/bannerbackground.jpg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
@@ -3615,12 +3618,22 @@
 				#footer .inner .copyright li a {
 					color: inherit;
 				}
+	@media screen and (min-width: 1281px) {
+		#footer {
+			background-color: #2e3141;
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../media/13221264_728375500636802_3413921018698316130_o.jpg");
+			background-size: auto, cover;
+			background-position: center, center;
+			margin-top: -6.5em;
+			padding-top: 6.5em;
+		}
+	}
 
 	@media screen and (max-width: 1280px) {
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("https://hd.unsplash.com/photo-1429081172764-c0ee67ab9afd");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../media/13221264_728375500636802_3413921018698316130_o.jpg");
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
