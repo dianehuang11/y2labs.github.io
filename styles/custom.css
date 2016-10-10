@@ -1,0 +1,22 @@
+.navigationContainer {
+
+}
+
+.navigationList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigationList li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.whitebefore::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:white' /%3E%3C/svg%3E");
+}
+
+.whitebefore::after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:white' /%3E%3C/svg%3E")
+}
