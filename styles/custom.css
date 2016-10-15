@@ -48,3 +48,23 @@ background-color: #77BFC1 !important;
 
 }
 
+.navycolour {
+    color: black;   
+}
+
+.scheduleTable {
+    width: 100%;
+}
+
+tr.day  {
+    font-weight: 600;
+    border-bottom: 2px solid black;
+}
+
+td.place {
+    font-weight: 600;
+}
+
+.centreAlign {
+text-align: center !important;
+}
