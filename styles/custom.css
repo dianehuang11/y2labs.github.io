@@ -68,3 +68,11 @@ td.place {
 .centreAlign {
 text-align: center !important;
 }
+
+#header.transparent {
+    background-color: transparent;
+}
+
+#header.notTransparent {
+    background-color: black;
+}
