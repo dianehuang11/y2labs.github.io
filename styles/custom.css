@@ -76,3 +76,9 @@ text-align: center !important;
 #header.notTransparent {
     background-color: black;
 }
+
+.blackColour {
+    color: black !important;
+
+}
+
