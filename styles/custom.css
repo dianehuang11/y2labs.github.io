@@ -63,7 +63,13 @@ tr.day  {
 
 td.place {
     font-weight: 600;
+    display: none;
 }
+
+tr {
+    margin-left: 20px !important;
+}
+
 
 .centreAlign {
 text-align: center !important;
@@ -81,4 +87,6 @@ text-align: center !important;
     color: black !important;
 
 }
+
+
 

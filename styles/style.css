@@ -1689,13 +1689,21 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: black !important;
+		color: #ffffff;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #65A9AA !important;
+			color: #ffffff !important;
+		}
+
+		a.unique {
+			font-weight: 600;
+		}
+		
+		a.blackColour.unique:hover {
+			color: #77BFC1 !important;
 		}
 
 		a.special:not(.button) {
