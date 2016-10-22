@@ -9,15 +9,11 @@
     sections[e.id] = e.offsetTop;
   });
 
-  console.log(section);
-
   window.onscroll = function() {
     var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
-
     for (i in sections) {
       if (sections[i] <= scrollPosition) {
         document.querySelector('header').setAttribute('class', 'notTransparent');
-        // document.querySelector('a[href*=' + i + ']').setAttribute('class', 'active');
       } else {
         document.querySelector('header').setAttribute('class', 'transparent');
       }
