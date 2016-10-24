@@ -7,6 +7,9 @@
 	<link rel="stylesheet" href="styles/style.css">
 	<link rel="stylesheet" href="styles/custom.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/morphext.min.js"></script>
+	<script src="js/custom.js"></script>
 </head>
 
 <body>
@@ -24,8 +27,7 @@
 			<div class="inner">
 				<div class="logo"><img src="media/newlogo.png" height="100px"></div>
 				</img>
-				<h2 id="text-rotating">Lead, Innovate, Augment, Unlock, Accelerate, Empower, Impact, Experience</h2>
-
+				<h2 id="generic-rotating">Lead, Innovate, Augment, Unlock, Accelerate, Empower, Impact, Experience</h2>
 				<p>The unparalleled experience of Y2 Entrepreneurship Labs.</p>
 			</div>
 		</section>
@@ -107,9 +109,16 @@
 			</div>
 		</section>
 	</div>
-
-
-	<!--<img src="./media/y2team.jpg">-->
+	<script>
+		  $("#generic-rotating").Morphext({
+      // The [in] animation type. Refer to Animate.css for a list of available animations.
+      animation: "fadeIn",
+      // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+      separator: ",",
+      // The delay between the changing of each phrase in milliseconds.
+      speed: 2000
+  });
+	</script>
 </body>
 
 </html>
