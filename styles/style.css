@@ -1698,11 +1698,26 @@
 			color: #ffffff !important;
 		}
 
+		a.hover2{
+			border-bottom-color: transparent;
+			color: white !important;
+
+		}
+
 		a.unique {
 			font-weight: 600;
 		}
 		
 		a.blackColour.unique:hover {
+			color: #77BFC1 !important;
+		}
+
+		a.whiteColour.unique:hover{
+		color: black !important;
+
+		}
+
+		a.anotherColour.unique:hover {
 			color: #77BFC1 !important;
 		}
 
