@@ -57,6 +57,8 @@
   window.onscroll = function() {
     var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
     mainNavHidden(scrollPosition);
-    volunteerNavHidden(scrollPosition);
+    if (volunteerNavHidden) {
+      volunteerNavHidden(scrollPosition);   
+    }
   };
 })();
