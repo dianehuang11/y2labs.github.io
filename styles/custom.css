@@ -125,3 +125,41 @@ tr {
     background: white;
 
 }
+
+.volunteerPage__navigation {
+    position: fixed;
+    transform: translateY(100px);
+    height: 40px;
+    width: 100%;
+    bottom: 0px;
+    background: black;
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.volunteerPage__navigation ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.volunteerPage__navigation ul li {
+    display: inline;
+    margin: 0 20px;
+    font-size: 16px;
+    padding: 0px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+}
+
+.volunteerPage__navigation ul li:hover {
+   border-bottom: 1px solid white;
+
+}
+
+.volunteerPage__navigation.active {
+    transform: translateY(0px);
+}
