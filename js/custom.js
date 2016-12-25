@@ -11,7 +11,7 @@
     }
   }
   
-  document.getElementById('clickList').addEventListener('click', function(event) {
+  document.getElementById('clickList') && document.getElementById('clickList').addEventListener('click', function(event) {
     if (event.target.innerHTML) {
       var nextTarget = document.getElementById(event.target.innerHTML.toLowerCase().replace(' ', '_'));
       if (nextTarget) {
