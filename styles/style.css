@@ -3327,7 +3327,7 @@ body.is-loading #banner p {
     -webkit-transform: scaleY(-1);
     -ms-transform: scaleY(-1);
     transform: scaleY(-1);
-    bottom: -6.5em;
+    bottom: -6.49em;
     left: 0;
 }
 
