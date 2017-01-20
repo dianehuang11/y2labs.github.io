@@ -3312,7 +3312,7 @@ body.is-loading #banner p {
     background-size: 100% 100%;
     content: '';
     display: block;
-    height: 6.5em;
+    height: 6.51em;
     position: absolute;
     width: 100%;
 }
