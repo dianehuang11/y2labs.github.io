@@ -39,9 +39,9 @@
   var mainNavHidden = function (scrollPosition) {
     for (var i in sections) {
       if (sections[i] <= scrollPosition) {
-        document.querySelector('header').setAttribute('class', 'notTransparent');
+        // document.querySelector('header').setAttribute('class', 'notTransparent');
       } else {
-        document.querySelector('header').setAttribute('class', 'transparent');
+        // document.querySelector('header').setAttribute('class', 'transparent');
       }
     }
   }
@@ -61,4 +61,14 @@
       volunteerNavHidden(scrollPosition);   
     }
   };
+
+
+  $('#hamburger').on('click', function() {
+    if ($(this).hasClass('open')) {
+      $('.nav-mobile').removeClass('active');
+    } else {
+      $('.nav-mobile').addClass('active');
+    }
+    $(this).toggleClass('open');
+  });
 })();
