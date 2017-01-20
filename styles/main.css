@@ -1,4 +1,4 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+/*html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -9,21 +9,26 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     display: block
-}
+}*/
 
 body {
     line-height: 1
 }
 
-ol,ul {
+ol,
+ul {
     list-style: none
 }
 
-blockquote,q {
+blockquote,
+q {
     quotes: none
 }
 
-blockquote:before,blockquote:after,q:before,q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: '';
     content: none
 }
@@ -37,7 +42,9 @@ body {
     -webkit-text-size-adjust: none
 }
 
-*,*:before,*:after {
+*,
+*:before,
+*:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box
@@ -48,7 +55,9 @@ body {
     min-width: 320px
 }
 
-body.is-loading *,body.is-loading *:before,body.is-loading *:after {
+body.is-loading *,
+body.is-loading *:before,
+body.is-loading *:after {
     -moz-transition: none !important;
     -webkit-transition: none !important;
     -ms-transition: none !important;
@@ -59,7 +68,9 @@ body.is-loading *,body.is-loading *:before,body.is-loading *:after {
     animation: none !important
 }
 
-body.is-resizing *,body.is-resizing *:before,body.is-resizing *:after {
+body.is-resizing *,
+body.is-resizing *:before,
+body.is-resizing *:after {
     -moz-transition: none !important;
     -webkit-transition: none !important;
     -ms-transition: none !important;
@@ -70,7 +81,10 @@ body.is-resizing *,body.is-resizing *:before,body.is-resizing *:after {
     animation: none !important
 }
 
-body,input,select,textarea {
+body,
+input,
+select,
+textarea {
     color: #888;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15pt;
@@ -80,34 +94,46 @@ body,input,select,textarea {
 }
 
 @media screen and (max-width: 1680px) {
-    body,input,select,textarea {
-        font-size:13pt
+    body,
+    input,
+    select,
+    textarea {
+        font-size: 13pt
     }
 }
 
 @media screen and (max-width: 840px) {
-    body,input,select,textarea {
-        font-size:12pt
+    body,
+    input,
+    select,
+    textarea {
+        font-size: 12pt
     }
 }
 
 @media screen and (max-width: 736px) {
-    body,input,select,textarea {
-        line-height:1.5em
+    body,
+    input,
+    select,
+    textarea {
+        line-height: 1.5em
     }
 }
 
 @media screen and (max-width: 480px) {
-    body,input,select,textarea {
-        font-size:11.5pt
+    body,
+    input,
+    select,
+    textarea {
+        font-size: 11.5pt
     }
 }
 
 a {
-    -moz-transition: color 0.15s ease-in-out,border-color 0.15s ease-in-out;
-    -webkit-transition: color 0.15s ease-in-out,border-color 0.15s ease-in-out;
-    -ms-transition: color 0.15s ease-in-out,border-color 0.15s ease-in-out;
-    transition: color 0.15s ease-in-out,border-color 0.15s ease-in-out;
+    -moz-transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    -webkit-transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    -ms-transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     color: #52cbee;
     text-decoration: none;
     border-bottom: dotted 1px
@@ -118,20 +144,32 @@ a:hover {
     border-bottom-color: transparent !important
 }
 
-strong,b {
+strong,
+b {
     font-weight: 600;
     color: #555
 }
 
-em,i {
+em,
+i {
     font-style: italic
 }
 
-p,ul,ol,dl,table,blockquote {
+p,
+ul,
+ol,
+dl,
+table,
+blockquote {
     margin: 0 0 2em 0
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: inherit;
     font-weight: 400;
     line-height: 1.75em;
@@ -139,10 +177,15 @@ h1,h2,h3,h4,h5,h6 {
     color: #555
 }
 
-h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
     color: inherit;
     text-decoration: none;
-    border-bottom-color: rgba(136,136,136,0.5)
+    border-bottom-color: rgba(136, 136, 136, 0.5)
 }
 
 h2 {
@@ -167,8 +210,13 @@ h4 {
 }
 
 @media screen and (max-width: 840px) {
-    h1 br,h2 br,h3 br,h4 br,h5 br,h6 br {
-        display:none
+    h1 br,
+    h2 br,
+    h3 br,
+    h4 br,
+    h5 br,
+    h6 br {
+        display: none
     }
 }
 
@@ -198,7 +246,7 @@ hr {
 
 @media screen and (max-width: 480px) {
     hr {
-        margin-top:1.5em;
+        margin-top: 1.5em;
         margin-bottom: 1em
     }
 }
@@ -209,7 +257,8 @@ blockquote {
     padding: 1em 0 1em 2em
 }
 
-pre,code {
+pre,
+code {
     font-family: 'Source Code Pro', fixed;
     font-size: 0.8em
 }
@@ -267,21 +316,19 @@ p.notice {
 
 @media screen and (max-width: 736px) {
     p.major {
-        font-size:1.1em;
+        font-size: 1.1em;
         letter-spacing: -0.01em;
         line-height: 1.65em;
         font-weight: 400;
         padding: 0 1em;
         margin: 0 0 1em 0
     }
-
     p.fineprint {
         font-size: 0.9em;
         letter-spacing: 0;
         line-height: 1.65em;
         font-weight: 400
     }
-
     p.note {
         font-size: 0.9em;
         letter-spacing: 0;
@@ -317,23 +364,27 @@ p.notice {
     display: none
 }
 
-section.special,article.special {
+section.special,
+article.special {
     text-align: center
 }
 
-section.divided,article.divided {
+section.divided,
+article.divided {
     border-top: solid 1px #dadada;
     padding: 3em 0 0 0;
     margin: 3em 0 0 0
 }
 
-section.divided:first-child,article.divided:first-child {
+section.divided:first-child,
+article.divided:first-child {
     border-top: 0;
     padding-top: 0;
     margin-top: 0
 }
 
-section.hash:target,article.hash:target {
+section.hash:target,
+article.hash:target {
     background: #FFFCED;
     border: solid 1px #dadada;
     border-radius: 4px;
@@ -344,7 +395,8 @@ section.hash:target,article.hash:target {
     margin: 0 0 2em 0
 }
 
-section.hash:target>:last-child,article.hash:target>:last-child {
+section.hash:target>:last-child,
+article.hash:target>:last-child {
     margin: 0
 }
 
@@ -365,20 +417,18 @@ header.major h3 {
 
 @media screen and (max-width: 1680px) {
     header.major {
-        padding:0 0 3.5em 0
+        padding: 0 0 3.5em 0
     }
 }
 
 @media screen and (max-width: 840px) {
     header.major {
-        margin:0 0 2em 0;
+        margin: 0 0 2em 0;
         padding: 0 0 2em 0
     }
-
     header.major h3 {
         padding: 0 1em
     }
-
     header.major h3 br {
         display: none
     }
@@ -386,10 +436,9 @@ header.major h3 {
 
 @media screen and (max-width: 736px) {
     header.major {
-        margin:0 0 2.5em 0;
+        margin: 0 0 2.5em 0;
         padding: 0 0 2.5em 0
     }
-
     header.major h3 {
         font-size: 1.1em;
         letter-spacing: -0.01em;
@@ -402,10 +451,9 @@ header.major h3 {
 
 @media screen and (max-width: 480px) {
     header.major {
-        margin:0 0 2em 0;
+        margin: 0 0 2em 0;
         padding: 0.5em 0 2em 0
     }
-
     header.major br {
         display: none
     }
@@ -423,28 +471,28 @@ footer.major {
 
 @media screen and (max-width: 1680px) {
     footer.major {
-        margin:3em 0 0 0;
+        margin: 3em 0 0 0;
         padding: 3em 0 0 0
     }
 }
 
 @media screen and (max-width: 840px) {
     footer.major {
-        margin:2em 0 0 0;
+        margin: 2em 0 0 0;
         padding: 2em 0 0 0
     }
 }
 
 @media screen and (max-width: 736px) {
     footer.major {
-        margin:2.5em 0 0 0;
+        margin: 2.5em 0 0 0;
         padding: 2.5em 0 0 0
     }
 }
 
 @media screen and (max-width: 480px) {
     footer.major {
-        margin:2em 0 0 0;
+        margin: 2em 0 0 0;
         padding: 2em 0 0 0
     }
 }
@@ -480,7 +528,7 @@ footer.major {
 
 @media screen and (max-width: 480px) {
     .alert {
-        margin:0 0 1em 0
+        margin: 0 0 1em 0
     }
 }
 
@@ -522,7 +570,10 @@ footer.major {
     display: none
 }
 
-input[type="submit"],input[type="reset"],input[type="button"],.button {
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.button {
     -moz-appearance: none;
     -webkit-appearance: none;
     -ms-appearance: none;
@@ -558,47 +609,78 @@ input[type="submit"],input[type="reset"],input[type="button"],.button {
     padding: 0 2em
 }
 
-input[type="submit"] span,input[type="reset"] span,input[type="button"] span,.button span {
+input[type="submit"] span,
+input[type="reset"] span,
+input[type="button"] span,
+.button span {
     font-weight: 400
 }
 
-input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover,.button:hover {
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:hover {
     background: #2dc0ea;
     color: #fff !important
 }
 
-input[type="submit"]::-moz-focus-inner,input[type="reset"]::-moz-focus-inner,input[type="button"]::-moz-focus-inner,.button::-moz-focus-inner {
+input[type="submit"]::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+.button::-moz-focus-inner {
     border: 0
 }
 
-input[type="submit"].alt,input[type="reset"].alt,input[type="button"].alt,.button.alt {
+input[type="submit"].alt,
+input[type="reset"].alt,
+input[type="button"].alt,
+.button.alt {
     background: none;
     box-shadow: inset 0 0 0 1px #dadada;
     color: #555 !important
 }
 
-input[type="submit"].alt:hover,input[type="reset"].alt:hover,input[type="button"].alt:hover,.button.alt:hover {
+input[type="submit"].alt:hover,
+input[type="reset"].alt:hover,
+input[type="button"].alt:hover,
+.button.alt:hover {
     background: #f0f0f0;
     color: #555 !important
 }
 
-input[type="submit"].icon:before,input[type="reset"].icon:before,input[type="button"].icon:before,.button.icon:before {
+input[type="submit"].icon:before,
+input[type="reset"].icon:before,
+input[type="button"].icon:before,
+.button.icon:before {
     margin-right: 0.5em;
     float: left
 }
 
-input[type="submit"].disabled,input[type="submit"]:disabled,input[type="reset"].disabled,input[type="reset"]:disabled,input[type="button"].disabled,input[type="button"]:disabled,.button.disabled,.button:disabled {
+input[type="submit"].disabled,
+input[type="submit"]:disabled,
+input[type="reset"].disabled,
+input[type="reset"]:disabled,
+input[type="button"].disabled,
+input[type="button"]:disabled,
+.button.disabled,
+.button:disabled {
     background-color: #999;
     color: #fff;
     opacity: 0.5;
     cursor: default
 }
 
-input[type="submit"].fit,input[type="reset"].fit,input[type="button"].fit,.button.fit {
+input[type="submit"].fit,
+input[type="reset"].fit,
+input[type="button"].fit,
+.button.fit {
     width: 100%
 }
 
-input[type="submit"].small,input[type="reset"].small,input[type="button"].small,.button.small {
+input[type="submit"].small,
+input[type="reset"].small,
+input[type="button"].small,
+.button.small {
     font-size: 0.7em;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -609,7 +691,10 @@ input[type="submit"].small,input[type="reset"].small,input[type="button"].small,
     padding: 0 1.5em
 }
 
-input[type="submit"].big,input[type="reset"].big,input[type="button"].big,.button.big {
+input[type="submit"].big,
+input[type="reset"].big,
+input[type="button"].big,
+.button.big {
     font-size: 0.9em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -619,15 +704,20 @@ input[type="submit"].big,input[type="reset"].big,input[type="button"].big,.butto
 }
 
 @media screen and (max-width: 736px) {
-    input[type="submit"],input[type="reset"],input[type="button"],.button {
-        height:3em;
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    .button {
+        height: 3em;
         line-height: 3em;
         padding: 0 1.25em;
         font-size: 0.9em
     }
 }
 
-input[type="submit"],input[type="reset"],input[type="button"] {
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
     line-height: 2.875em
 }
 
@@ -682,52 +772,45 @@ form .fields>.full {
 
 @media screen and (max-width: 980px) {
     form .fields>.third.primary {
-        width:100%
+        width: 100%
     }
-
-    form .fields>.third.primary+.third,form .fields>.third.primary+.third+.third {
+    form .fields>.third.primary+.third,
+    form .fields>.third.primary+.third+.third {
         width: calc(50% - 1.25em)
     }
 }
 
 @media screen and (max-width: 840px) {
     form .fields {
-        width:100%;
+        width: 100%;
         margin: -1.25em 0 0 0
     }
-
     form .fields>* {
         margin: 1.25em 0 0 0
     }
-
     form .fields>.quarter {
         width: 100%
     }
-
     form .fields>.third {
         width: 100%
     }
-
-    form .fields>.third.primary+.third,form .fields>.third.primary+.third+.third {
+    form .fields>.third.primary+.third,
+    form .fields>.third.primary+.third+.third {
         width: 100%
     }
-
     form .fields>.half {
         width: 100%
     }
-
-    form .fields>.half.primary+.quarter,form .fields>.half.primary+.quarter+.quarter {
+    form .fields>.half.primary+.quarter,
+    form .fields>.half.primary+.quarter+.quarter {
         width: calc(50% - 0.625em)
     }
-
     form .fields>.half.primary+.quarter {
         margin-right: 0.625em
     }
-
     form .fields>.half.primary+.quarter+.quarter {
         margin-left: 0.625em
     }
-
     form .fields>.twothirds {
         width: 100%
     }
@@ -832,7 +915,8 @@ form .field.select select[multiple] {
     height: 12em
 }
 
-form .field.checkbox,form .field.radio {
+form .field.checkbox,
+form .field.radio {
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -848,7 +932,8 @@ form .field.checkbox,form .field.radio {
     line-height: 2.5em
 }
 
-form .field.checkbox input,form .field.radio input {
+form .field.checkbox input,
+form .field.radio input {
     -moz-appearance: none;
     -webkit-appearance: none;
     -ms-appearance: none;
@@ -860,7 +945,8 @@ form .field.checkbox input,form .field.radio input {
     opacity: 0
 }
 
-form .field.checkbox label,form .field.radio label {
+form .field.checkbox label,
+form .field.radio label {
     position: relative;
     font-weight: 400;
     margin: 0 0 0 1.5em;
@@ -872,7 +958,8 @@ form .field.checkbox label,form .field.radio label {
     line-height: 1.5
 }
 
-form .field.checkbox label:before,form .field.radio label:before {
+form .field.checkbox label:before,
+form .field.radio label:before {
     content: '';
     width: 1.5em;
     height: 1.5em;
@@ -887,11 +974,13 @@ form .field.checkbox label:before,form .field.radio label:before {
     color: #52cbee
 }
 
-form .field.checkbox label:first-of-type,form .field.radio label:first-of-type {
+form .field.checkbox label:first-of-type,
+form .field.radio label:first-of-type {
     margin-left: 0
 }
 
-form .field.checkbox input:checked+label:before,form .field.radio input:checked+label:before {
+form .field.checkbox input:checked+label:before,
+form .field.radio input:checked+label:before {
     content: "";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -901,13 +990,15 @@ form .field.checkbox input:checked+label:before,form .field.radio input:checked+
     text-transform: none !important
 }
 
-form .field.checkbox input:checked+label:before,form .field.radio input:checked+label:before {
+form .field.checkbox input:checked+label:before,
+form .field.radio input:checked+label:before {
     background: #9a989f;
     color: #fff;
     border-color: #9a989f
 }
 
-form .field.checkbox.focus label:before,form .field.radio.focus label:before {
+form .field.checkbox.focus label:before,
+form .field.radio.focus label:before {
     border-color: #52cbee;
     box-shadow: 0 0 0 1px #52cbee
 }
@@ -922,16 +1013,17 @@ form .field.radio label:before {
 
 @media screen and (max-width: 480px) {
     form .actions li {
-        display:block;
+        display: block;
         padding: 1em 0 0 0 !important;
         width: 100%
     }
-
     form .actions li:first-child {
         padding: 0 !important
     }
-
-    form .actions li input[type="submit"],form .actions li input[type="reset"],form .actions li input[type="button"],form .actions li .button {
+    form .actions li input[type="submit"],
+    form .actions li input[type="reset"],
+    form .actions li input[type="button"],
+    form .actions li .button {
         display: block;
         width: 100%
     }
@@ -947,17 +1039,21 @@ label {
 
 @media screen and (max-width: 980px) {
     label {
-        margin-bottom:0.25em
+        margin-bottom: 0.25em
     }
 }
 
 @media screen and (max-width: 840px) {
     label {
-        margin-bottom:0.75em
+        margin-bottom: 0.75em
     }
 }
 
-input[type="text"],input[type="password"],input[type="email"],select,textarea {
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
     -moz-appearance: none;
     -webkit-appearance: none;
     -ms-appearance: none;
@@ -974,7 +1070,11 @@ input[type="text"],input[type="password"],input[type="email"],select,textarea {
     width: 100%
 }
 
-input[type="text"]:invalid,input[type="password"]:invalid,input[type="email"]:invalid,select:invalid,textarea:invalid {
+input[type="text"]:invalid,
+input[type="password"]:invalid,
+input[type="email"]:invalid,
+select:invalid,
+textarea:invalid {
     box-shadow: none
 }
 
@@ -1077,16 +1177,16 @@ textarea {
 
 .radio-switch.field.focus>li {
     border-color: #52cbee;
-    box-shadow: 0 -1px 0 0 #52cbee,0 1px 0 0 #52cbee
+    box-shadow: 0 -1px 0 0 #52cbee, 0 1px 0 0 #52cbee
 }
 
 .radio-switch.field.focus>li:first-child {
-    box-shadow: 0 -1px 0 0 #52cbee,0 1px 0 0 #52cbee,-1px 0 0 0 #52cbee
+    box-shadow: 0 -1px 0 0 #52cbee, 0 1px 0 0 #52cbee, -1px 0 0 0 #52cbee
 }
 
 .radio-switch.field.focus>li:last-child {
     border-right-color: #52cbee !important;
-    box-shadow: 0 -1px 0 0 #52cbee,0 1px 0 0 #52cbee,1px 0 0 0 #52cbee
+    box-shadow: 0 -1px 0 0 #52cbee, 0 1px 0 0 #52cbee, 1px 0 0 0 #52cbee
 }
 
 .radio-switch.plans>li {
@@ -1157,14 +1257,12 @@ textarea {
 
 @media screen and (max-width: 480px) {
     .radio-switch.plans {
-        width:100%
+        width: 100%
     }
-
     .radio-switch.plans>li {
         padding: 1em 0 0.75em 0;
         width: 33%
     }
-
     .radio-switch.plans>li .duration {
         font-size: 0.8em;
         letter-spacing: 0;
@@ -1173,7 +1271,6 @@ textarea {
         line-height: 1em;
         margin: 0 0 0.5em 0
     }
-
     .radio-switch.plans>li .price {
         font-size: 1.5em;
         letter-spacing: -0.0225em;
@@ -1181,12 +1278,10 @@ textarea {
         font-weight: 400;
         line-height: 1em
     }
-
     .radio-switch.plans.field>li {
         width: 33% !important;
         padding: 0
     }
-
     .radio-switch.plans.field>li>label {
         padding: 1em 0 0.75em 0;
         width: 100% !important
@@ -1396,7 +1491,7 @@ textarea {
 
 @media screen and (max-width: 980px) {
     .table-wrapper {
-        white-space:nowrap
+        white-space: nowrap
     }
 }
 
@@ -1522,7 +1617,7 @@ table tbody tr:first-child {
 
 .item .image:after {
     content: '';
-    box-shadow: inset 0 0 2px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, 0.15);
     position: absolute;
     left: 0;
     top: 0;
@@ -1539,7 +1634,7 @@ table tbody tr:first-child {
     position: absolute;
     left: 0;
     bottom: 0;
-    background: rgba(32,32,32,0.75);
+    background: rgba(32, 32, 32, 0.75);
     color: #fff;
     height: calc(100% - 2em);
     width: 100%;
@@ -1576,24 +1671,23 @@ table tbody tr:first-child {
 
 @media screen and (max-width: 1680px) {
     .item {
-        width:28%;
+        width: 28%;
         margin: 1em
     }
 }
 
 @media screen and (max-width: 1340px) {
     .item {
-        margin:0.75em;
+        margin: 0.75em;
         width: 30%
     }
 }
 
 @media screen and (max-width: 980px) {
     .item {
-        width:45%;
+        width: 45%;
         margin: 1em
     }
-
     .item .inner {
         display: none
     }
@@ -1601,27 +1695,23 @@ table tbody tr:first-child {
 
 @media screen and (max-width: 840px) {
     .item {
-        border-width:0.25em
+        border-width: 0.25em
     }
 }
 
 @media screen and (max-width: 736px) {
     .item {
-        margin:0.75em
+        margin: 0.75em
     }
-
     .item .image:before {
-        box-shadow: inset 0 0 1px 0 rgba(0,0,0,0.15)
+        box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.15)
     }
-
     .item .image:hover:before {
         background: transparent !important
     }
-
     .item .image:hover:after {
         opacity: 0 !important
     }
-
     .item header {
         display: none
     }
@@ -1629,10 +1719,9 @@ table tbody tr:first-child {
 
 @media screen and (max-width: 480px) {
     .item {
-        width:calc(100% - 2em);
+        width: calc(100% - 2em);
         margin: 1em 0 0 0
     }
-
     .item:first-child {
         margin-top: 0.5em
     }
@@ -1719,7 +1808,7 @@ ul.menu>li:first-child {
 
 @media screen and (max-width: 736px) {
     ul.menu>li {
-        padding-left:1em
+        padding-left: 1em
     }
 }
 
@@ -1794,15 +1883,16 @@ ul.actions.big>li {
 
 @media screen and (max-width: 480px) {
     ul.actions.big>li {
-        display:block;
+        display: block;
         padding: 1em 0 0 0 !important
     }
-
     ul.actions.big>li:first-child {
         padding: 0 !important
     }
-
-    ul.actions.big>li input[type="submit"],ul.actions.big>li input[type="reset"],ul.actions.big>li input[type="button"],ul.actions.big>li .button {
+    ul.actions.big>li input[type="submit"],
+    ul.actions.big>li input[type="reset"],
+    ul.actions.big>li input[type="button"],
+    ul.actions.big>li .button {
         display: block;
         width: 100%
     }
@@ -1942,7 +2032,7 @@ dl.style3 dd:first-of-type {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(32,32,32,0.75);
+    background: rgba(32, 32, 32, 0.75);
     text-align: center;
     z-index: 1000
 }
@@ -2070,10 +2160,9 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 1680px) {
     .modal>section {
-        width:35em;
+        width: 35em;
         padding: 2.5em
     }
-
     .modal>section>h2 {
         font-size: 1.5em;
         letter-spacing: -0.0225em;
@@ -2085,14 +2174,14 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 840px) {
     .modal>section {
-        padding:2.5em;
+        padding: 2.5em;
         max-width: 85%
     }
 }
 
 @media screen and (max-width: 736px) {
     .modal>section {
-        border-radius:0;
+        border-radius: 0;
         width: 100%;
         max-width: 100%;
         padding: 2em 1.5em
@@ -2101,16 +2190,14 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 480px) {
     .modal>section {
-        text-align:center
+        text-align: center
     }
-
     .modal>section .download {
         -moz-flex-direction: column;
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column
     }
-
     .modal>section .download>.actions {
         margin-top: 1em
     }
@@ -2136,7 +2223,8 @@ dl.style3 dd:first-of-type {
     margin: 1.5em 0 0.5em 0
 }
 
-.paymentForm .paypalForm p:last-child,.paymentForm .ccForm p:last-child {
+.paymentForm .paypalForm p:last-child,
+.paymentForm .ccForm p:last-child {
     margin-bottom: 0
 }
 
@@ -2234,21 +2322,20 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 840px) {
     .paymentForm .ccForm .cards li {
-        margin:0 0.3em
+        margin: 0 0.3em
     }
 }
 
 @media screen and (max-width: 736px) {
     .paymentForm p br {
-        display:none
+        display: none
     }
 }
 
 @media screen and (max-width: 480px) {
     .paymentForm .ccForm .cards li {
-        margin:0 0.35em
+        margin: 0 0.35em
     }
-
     .paymentForm .ccForm .cards li.paypal {
         background-image: url("../images/sprites.png");
         width: 43.75px;
@@ -2257,7 +2344,6 @@ dl.style3 dd:first-of-type {
         background-position: 0px -2.8px;
         text-indent: -9999px
     }
-
     .paymentForm .ccForm .cards li.mastercard {
         background-image: url("../images/sprites.png");
         width: 29.225px;
@@ -2266,7 +2352,6 @@ dl.style3 dd:first-of-type {
         background-position: -50.4px 0px;
         text-indent: -9999px
     }
-
     .paymentForm .ccForm .cards li.visa {
         background-image: url("../images/sprites.png");
         width: 32.725px;
@@ -2275,7 +2360,6 @@ dl.style3 dd:first-of-type {
         background-position: -85.225px -3.15px;
         text-indent: -9999px
     }
-
     .paymentForm .ccForm .cards li.amex {
         background-image: url("../images/sprites.png");
         width: 16.625px;
@@ -2284,7 +2368,6 @@ dl.style3 dd:first-of-type {
         background-position: -126.35px 0px;
         text-indent: -9999px
     }
-
     .paymentForm .ccForm .cards li.discover {
         background-image: url("../images/sprites.png");
         width: 49.175px;
@@ -2293,7 +2376,6 @@ dl.style3 dd:first-of-type {
         background-position: -152.775px -4.375px;
         text-indent: -9999px
     }
-
     .paymentForm .ccForm .cards li.jcb {
         background-image: url("../images/sprites.png");
         width: 21.7px;
@@ -2302,7 +2384,6 @@ dl.style3 dd:first-of-type {
         background-position: -211.4px -0.525px;
         text-indent: -9999px
     }
-
     .paymentForm .ccForm .cards li.diners {
         background-image: url("../images/sprites.png");
         width: 50.925px;
@@ -2330,7 +2411,8 @@ dl.style3 dd:first-of-type {
     margin: 0 0 1.75em 0
 }
 
-.payment-methods h3:before,.payment-methods h3:after {
+.payment-methods h3:before,
+.payment-methods h3:after {
     content: '';
     display: block;
     width: 35%;
@@ -2494,21 +2576,18 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 736px) {
     .payment-methods {
-        width:100%
+        width: 100%
     }
-
-    .payment-methods h3:before,.payment-methods h3:after {
+    .payment-methods h3:before,
+    .payment-methods h3:after {
         width: calc(50% - 5em)
     }
-
     .payment-methods ul {
         margin: -0.5em 0 0 0
     }
-
     .payment-methods ul li {
         margin: 0.5em 0.5em
     }
-
     .payment-methods ul li.paypal {
         background-image: url("../images/sprites.png");
         width: 87.5px;
@@ -2517,7 +2596,6 @@ dl.style3 dd:first-of-type {
         background-position: 0px -5.6px;
         text-indent: -9999px
     }
-
     .payment-methods ul li.mastercard {
         background-image: url("../images/sprites.png");
         width: 58.45px;
@@ -2526,7 +2604,6 @@ dl.style3 dd:first-of-type {
         background-position: -100.8px 0px;
         text-indent: -9999px
     }
-
     .payment-methods ul li.visa {
         background-image: url("../images/sprites.png");
         width: 65.45px;
@@ -2535,7 +2612,6 @@ dl.style3 dd:first-of-type {
         background-position: -170.45px -6.3px;
         text-indent: -9999px
     }
-
     .payment-methods ul li.amex {
         background-image: url("../images/sprites.png");
         width: 33.25px;
@@ -2544,7 +2620,6 @@ dl.style3 dd:first-of-type {
         background-position: -252.7px 0px;
         text-indent: -9999px
     }
-
     .payment-methods ul li.discover {
         background-image: url("../images/sprites.png");
         width: 98.35px;
@@ -2553,7 +2628,6 @@ dl.style3 dd:first-of-type {
         background-position: -305.55px -8.75px;
         text-indent: -9999px
     }
-
     .payment-methods ul li.jcb {
         background-image: url("../images/sprites.png");
         width: 43.4px;
@@ -2562,7 +2636,6 @@ dl.style3 dd:first-of-type {
         background-position: -422.8px -1.05px;
         text-indent: -9999px
     }
-
     .payment-methods ul li.diners {
         background-image: url("../images/sprites.png");
         width: 101.85px;
@@ -2658,52 +2731,45 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 980px) {
     .split>.third.primary {
-        width:100%
+        width: 100%
     }
-
-    .split>.third.primary+.third,.split>.third.primary+.third+.third {
+    .split>.third.primary+.third,
+    .split>.third.primary+.third+.third {
         width: calc(50% - 2.5em)
     }
 }
 
 @media screen and (max-width: 840px) {
     .split {
-        width:100%;
+        width: 100%;
         margin: -2.5em 0 0 0
     }
-
     .split>* {
         margin: 2.5em 0 0 0
     }
-
     .split>.quarter {
         width: 100%
     }
-
     .split>.third {
         width: 100%
     }
-
-    .split>.third.primary+.third,.split>.third.primary+.third+.third {
+    .split>.third.primary+.third,
+    .split>.third.primary+.third+.third {
         width: 100%
     }
-
     .split>.half {
         width: 100%
     }
-
-    .split>.half.primary+.quarter,.split>.half.primary+.quarter+.quarter {
+    .split>.half.primary+.quarter,
+    .split>.half.primary+.quarter+.quarter {
         width: calc(50% - 1.25em)
     }
-
     .split>.half.primary+.quarter {
         margin-right: 1.25em
     }
-
     .split>.half.primary+.quarter+.quarter {
         margin-left: 1.25em
     }
-
     .split>.twothirds {
         width: 100%
     }
@@ -2741,7 +2807,7 @@ dl.style3 dd:first-of-type {
 }
 
 .switcher>li:hover {
-    background: rgba(255,255,255,0.35)
+    background: rgba(255, 255, 255, 0.35)
 }
 
 .switcher>li.active {
@@ -2765,7 +2831,7 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 736px) {
     .switcher>li {
-        font-size:0.8em;
+        font-size: 0.8em;
         letter-spacing: 0;
         line-height: 1.65em;
         font-weight: 400;
@@ -2776,10 +2842,10 @@ dl.style3 dd:first-of-type {
 }
 
 .tooltip {
-    -moz-transition: color 0.15s ease-in-out,border-color 0.15s ease-in-out;
-    -webkit-transition: color 0.15s ease-in-out,border-color 0.15s ease-in-out;
-    -ms-transition: color 0.15s ease-in-out,border-color 0.15s ease-in-out;
-    transition: color 0.15s ease-in-out,border-color 0.15s ease-in-out;
+    -moz-transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    -webkit-transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    -ms-transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     position: relative;
     border-bottom: dotted 1px;
     cursor: help;
@@ -2800,7 +2866,7 @@ dl.style3 dd:first-of-type {
     border: solid 1px #dadada;
     padding: 0.75em 1em;
     border-radius: 4px;
-    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.05);
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.05);
     margin-bottom: 0.5em;
     text-align: left;
     z-index: 10000
@@ -2851,7 +2917,7 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 480px) {
     .tooltip .content {
-        font-size:0.9em;
+        font-size: 0.9em;
         letter-spacing: 0;
         line-height: 1.65em;
         font-weight: 400;
@@ -2862,7 +2928,6 @@ dl.style3 dd:first-of-type {
         border-right: 0;
         border-radius: 0
     }
-
     .tooltip .content br {
         display: none
     }
@@ -2900,7 +2965,8 @@ dl.style3 dd:first-of-type {
     margin-top: 3.25em
 }
 
-.widget.action-icons>div:nth-child(1),.widget.action-icons>div:nth-child(2) {
+.widget.action-icons>div:nth-child(1),
+.widget.action-icons>div:nth-child(2) {
     margin-top: 0
 }
 
@@ -2949,7 +3015,8 @@ dl.style3 dd:first-of-type {
     padding-right: 2em
 }
 
-.widget.action-icons .action .title,.widget.action-icons .action .description {
+.widget.action-icons .action .title,
+.widget.action-icons .action .description {
     margin: 0 0 0 96px
 }
 
@@ -2959,83 +3026,75 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 1680px) {
     .widget.action-icons .action:before {
-        font-size:48px;
+        font-size: 48px;
         width: 48px;
         height: 64px;
         line-height: 64px
     }
-
-    .widget.action-icons .action .title,.widget.action-icons .action .description {
+    .widget.action-icons .action .title,
+    .widget.action-icons .action .description {
         margin: 0 0 0 72px
     }
 }
 
 @media screen and (max-width: 736px) {
     .widget.action-icons {
-        -moz-flex-direction:column;
+        -moz-flex-direction: column;
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column
     }
-
     .widget.action-icons>div {
         border-top: solid 1px #f0f0f0;
         width: 100%;
         margin-top: 1.5em;
         padding-top: 1.5em
     }
-
     .widget.action-icons>div:nth-child(1) {
         border-top: 0;
         margin-top: 0;
         padding-top: 0
     }
-
     .widget.action-icons>div:nth-child(2) {
         margin-top: 1.5em
     }
-
     .widget.action-icons .action:before {
         font-size: 48px;
         width: 60px;
         height: 60px;
         line-height: 60px
     }
-
     .widget.action-icons .action .title {
         font-size: 1em;
         letter-spacing: -0.01em;
         line-height: 1.65em;
         font-weight: 600
     }
-
     .widget.action-icons .action .description {
         padding: 0
     }
-
-    .widget.action-icons .action .title,.widget.action-icons .action .description {
+    .widget.action-icons .action .title,
+    .widget.action-icons .action .description {
         margin: 4px 0 0 76px
     }
 }
 
 @media screen and (max-width: 480px) {
     .widget.action-icons>div {
-        margin-top:1em;
+        margin-top: 1em;
         padding-top: 1em
     }
-
     .widget.action-icons>div:nth-child(2) {
         margin-top: 1em
     }
-
     .widget.action-icons .action:before {
         font-size: 32px;
         width: 42px;
         height: 42px;
         line-height: 42px
     }
-
-    .widget.action-icons .action .title,.widget.action-icons .action .description {
+    .widget.action-icons .action .title,
+    .widget.action-icons .action .description {
         margin: 0 0 0 60px
     }
 }
@@ -3056,7 +3115,7 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 1680px) {
     .widget {
-        margin:0 0 3em 0
+        margin: 0 0 3em 0
     }
 }
 
@@ -3068,7 +3127,6 @@ dl.style3 dd:first-of-type {
     0% {
         top: -5em
     }
-
     100% {
         top: 0
     }
@@ -3078,7 +3136,6 @@ dl.style3 dd:first-of-type {
     0% {
         top: -5em
     }
-
     100% {
         top: 0
     }
@@ -3088,7 +3145,6 @@ dl.style3 dd:first-of-type {
     0% {
         top: -5em
     }
-
     100% {
         top: 0
     }
@@ -3098,7 +3154,6 @@ dl.style3 dd:first-of-type {
     0% {
         top: -5em
     }
-
     100% {
         top: 0
     }
@@ -3122,7 +3177,7 @@ dl.style3 dd:first-of-type {
     height: 3em;
     line-height: 3em;
     z-index: 10001;
-    box-shadow: 0 0 0.1em 0 rgba(0,0,0,0.15)
+    box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.15)
 }
 
 #header h1 {
@@ -3190,15 +3245,13 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 736px) {
     #header {
-        height:44px;
+        height: 44px;
         line-height: 44px;
-        box-shadow: 0 0.0625em 0.1em 0 rgba(0,0,0,0.15)
+        box-shadow: 0 0.0625em 0.1em 0 rgba(0, 0, 0, 0.15)
     }
-
     #header h1 {
         font-size: 0.8em
     }
-
     #header nav {
         display: none
     }
@@ -3206,7 +3259,7 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 480px) {
     #header {
-        box-shadow:0 0.125em 0.1em 0 rgba(0,0,0,0.15)
+        box-shadow: 0 0.125em 0.1em 0 rgba(0, 0, 0, 0.15)
     }
 }
 
@@ -3238,9 +3291,8 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 736px) {
     #footer {
-        padding:2em 1em !important
+        padding: 2em 1em !important
     }
-
     #footer .menu {
         font-size: 0.8em;
         letter-spacing: 0;
@@ -3259,7 +3311,7 @@ dl.style3 dd:first-of-type {
     margin: 3em 0 0 0;
     padding: 5.5em 0 15em 0;
     background-color: #444;
-    background-image: url("../images/bg.svg"),url("../images/banner.jpg");
+    background-image: url("../images/bg.svg"), url("../images/banner.jpg");
     background-attachment: scroll, fixed;
     background-size: auto, cover;
     background-position: top center, top center
@@ -3276,132 +3328,163 @@ dl.style3 dd:first-of-type {
     line-height: 1em
 }
 
-#main>header h2:before,#main>header h2:after {
+#main>header h2:before,
+#main>header h2:after {
     content: '';
     display: block;
     width: calc(50% - 2em);
-    border-top: solid 1px rgba(255,255,255,0.35);
+    border-top: solid 1px rgba(255, 255, 255, 0.35);
     position: absolute;
     top: 50%
 }
 
-#main>header h2.w1:before,#main>header h2.w1:after {
+#main>header h2.w1:before,
+#main>header h2.w1:after {
     width: calc(50% - 0.225em - 1em)
 }
 
-#main>header h2.w2:before,#main>header h2.w2:after {
+#main>header h2.w2:before,
+#main>header h2.w2:after {
     width: calc(50% - 0.45em - 1em)
 }
 
-#main>header h2.w3:before,#main>header h2.w3:after {
+#main>header h2.w3:before,
+#main>header h2.w3:after {
     width: calc(50% - 0.675em - 1em)
 }
 
-#main>header h2.w4:before,#main>header h2.w4:after {
+#main>header h2.w4:before,
+#main>header h2.w4:after {
     width: calc(50% - 0.9em - 1em)
 }
 
-#main>header h2.w5:before,#main>header h2.w5:after {
+#main>header h2.w5:before,
+#main>header h2.w5:after {
     width: calc(50% - 1.125em - 1em)
 }
 
-#main>header h2.w6:before,#main>header h2.w6:after {
+#main>header h2.w6:before,
+#main>header h2.w6:after {
     width: calc(50% - 1.35em - 1em)
 }
 
-#main>header h2.w7:before,#main>header h2.w7:after {
+#main>header h2.w7:before,
+#main>header h2.w7:after {
     width: calc(50% - 1.575em - 1em)
 }
 
-#main>header h2.w8:before,#main>header h2.w8:after {
+#main>header h2.w8:before,
+#main>header h2.w8:after {
     width: calc(50% - 1.8em - 1em)
 }
 
-#main>header h2.w9:before,#main>header h2.w9:after {
+#main>header h2.w9:before,
+#main>header h2.w9:after {
     width: calc(50% - 2.025em - 1em)
 }
 
-#main>header h2.w10:before,#main>header h2.w10:after {
+#main>header h2.w10:before,
+#main>header h2.w10:after {
     width: calc(50% - 2.25em - 1em)
 }
 
-#main>header h2.w11:before,#main>header h2.w11:after {
+#main>header h2.w11:before,
+#main>header h2.w11:after {
     width: calc(50% - 2.475em - 1em)
 }
 
-#main>header h2.w12:before,#main>header h2.w12:after {
+#main>header h2.w12:before,
+#main>header h2.w12:after {
     width: calc(50% - 2.7em - 1em)
 }
 
-#main>header h2.w13:before,#main>header h2.w13:after {
+#main>header h2.w13:before,
+#main>header h2.w13:after {
     width: calc(50% - 2.925em - 1em)
 }
 
-#main>header h2.w14:before,#main>header h2.w14:after {
+#main>header h2.w14:before,
+#main>header h2.w14:after {
     width: calc(50% - 3.15em - 1em)
 }
 
-#main>header h2.w15:before,#main>header h2.w15:after {
+#main>header h2.w15:before,
+#main>header h2.w15:after {
     width: calc(50% - 3.375em - 1em)
 }
 
-#main>header h2.w16:before,#main>header h2.w16:after {
+#main>header h2.w16:before,
+#main>header h2.w16:after {
     width: calc(50% - 3.6em - 1em)
 }
 
-#main>header h2.w17:before,#main>header h2.w17:after {
+#main>header h2.w17:before,
+#main>header h2.w17:after {
     width: calc(50% - 3.825em - 1em)
 }
 
-#main>header h2.w18:before,#main>header h2.w18:after {
+#main>header h2.w18:before,
+#main>header h2.w18:after {
     width: calc(50% - 4.05em - 1em)
 }
 
-#main>header h2.w19:before,#main>header h2.w19:after {
+#main>header h2.w19:before,
+#main>header h2.w19:after {
     width: calc(50% - 4.275em - 1em)
 }
 
-#main>header h2.w20:before,#main>header h2.w20:after {
+#main>header h2.w20:before,
+#main>header h2.w20:after {
     width: calc(50% - 4.5em - 1em)
 }
 
-#main>header h2.w21:before,#main>header h2.w21:after {
+#main>header h2.w21:before,
+#main>header h2.w21:after {
     width: calc(50% - 4.725em - 1em)
 }
 
-#main>header h2.w22:before,#main>header h2.w22:after {
+#main>header h2.w22:before,
+#main>header h2.w22:after {
     width: calc(50% - 4.95em - 1em)
 }
 
-#main>header h2.w23:before,#main>header h2.w23:after {
+#main>header h2.w23:before,
+#main>header h2.w23:after {
     width: calc(50% - 5.175em - 1em)
 }
 
-#main>header h2.w24:before,#main>header h2.w24:after {
+#main>header h2.w24:before,
+#main>header h2.w24:after {
     width: calc(50% - 5.4em - 1em)
 }
 
-#main>header h2.w25:before,#main>header h2.w25:after {
+#main>header h2.w25:before,
+#main>header h2.w25:after {
     width: calc(50% - 5.625em - 1em)
 }
 
-#main>header h2.w26:before,#main>header h2.w26:after {
+#main>header h2.w26:before,
+#main>header h2.w26:after {
     width: calc(50% - 5.85em - 1em)
 }
 
-#main>header h2.w27:before,#main>header h2.w27:after {
+#main>header h2.w27:before,
+#main>header h2.w27:after {
     width: calc(50% - 6.075em - 1em)
 }
 
-#main>header h2.w28:before,#main>header h2.w28:after {
+#main>header h2.w28:before,
+#main>header h2.w28:after {
     width: calc(50% - 6.3em - 1em)
 }
 
-#main>header h2.w29:before,#main>header h2.w29:after {
+#main>header h2.w29:before,
+#main>header h2.w29:after {
     width: calc(50% - 6.525em - 1em)
 }
 
-#main>header h2.w30:before,#main>header h2.w30:after {
+#main>header h2.w30:before,
+#main>header h2.w30:after {
     width: calc(50% - 6.75em - 1em)
 }
 
@@ -3521,30 +3604,25 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 1680px) {
     #main>header {
-        padding:3.5em 0 13em 0
+        padding: 3.5em 0 13em 0
     }
-
     #main>header h2 {
         font-size: 2em;
         letter-spacing: -0.0225em;
         line-height: 1.65em;
         font-weight: 600
     }
-
     #main>.inner {
         width: 55em
     }
-
     #main>.inner.alt {
         width: 32em;
         padding: 3.5em
     }
-
     #main>.inner.alt>.statusBar {
         width: calc(100% + 6.9775em);
         margin: -3.5em 0 3em -3.5em
     }
-
     #main>.inner.dialog {
         width: 20em;
         padding: 1.75em
@@ -3553,26 +3631,22 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 1340px) {
     #main>header {
-        background-attachment:scroll;
+        background-attachment: scroll;
         padding: 4.5em 0 14em 0
     }
-
     #main>.inner {
         padding: 2.5em;
         margin-top: -10em
     }
-
     #main>.inner>.statusBar {
         width: calc(100% + 5em);
         margin: -2.5em 0 2.5em -2.5em
     }
-
     #main>.inner>.infoBar {
         width: calc(100% + 5em);
         margin: -2.5em 0 2.5em -2.5em;
         padding: 2.5em
     }
-
     #main>.inner>.infoBar .main {
         font-size: 1.5em;
         letter-spacing: -0.0225em;
@@ -3583,7 +3657,7 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 980px) {
     #main>.inner>.infoBar .main {
-        font-size:1.25em;
+        font-size: 1.25em;
         letter-spacing: -0.0225em;
         line-height: 1.65em;
         font-weight: 600
@@ -3592,41 +3666,33 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 840px) {
     #main {
-        margin:0
+        margin: 0
     }
-
     #main>header {
         padding: 3.5em 0 13em 0;
-        background-image: url("../images/bg2.svg"),url("../images/banner.jpg")
+        background-image: url("../images/bg2.svg"), url("../images/banner.jpg")
     }
-
     #main>.inner {
         padding: 3em 2.5em
     }
-
     #main>.inner>.statusBar {
         width: calc(100% + 5em) !important;
         margin: -3em 0 3em -2.5em !important
     }
-
     #main>.inner>.statusBar .breadcrumbs li:not(.level-0):not(.level-1) {
         display: none
     }
-
     #main>.inner>.statusBar .breadcrumbs li.level-1:before {
         display: none
     }
-
     #main>.inner>.infoBar {
         width: calc(100% + 5em);
         margin: -3em 0 3em -2.5em
     }
-
     #main>.inner.alt {
         width: 28em !important;
         padding: 3em 2.5em
     }
-
     #main>.inner.dialog {
         width: 18em !important;
         padding: 1.5em
@@ -3635,49 +3701,42 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 736px) {
     #main {
-        margin:0
+        margin: 0
     }
-
     #main>header {
         margin: 44px 0 0 0;
         padding: 1.75em 0 11.5em 0;
-        background-image: url("../images/bg3.svg"),url("../images/banner.jpg")
+        background-image: url("../images/bg3.svg"), url("../images/banner.jpg")
     }
-
     #main>header h2 {
         font-size: 1.25em;
         letter-spacing: -0.0225em;
         line-height: 1.65em;
         font-weight: 400
     }
-
     #main>.inner {
         padding: 2.5em 2em
     }
-
     #main>.inner>.statusBar {
         width: calc(100% + 4em) !important;
         margin: -2.5em 0 2.5em -2em !important;
         text-align: center !important;
         padding: 0.85em 0
     }
-
     #main>.inner>.statusBar>.auth {
         display: none
     }
-
     #main>.inner>.infoBar {
         text-align: center;
         width: calc(100% + 4em);
         margin: -2.5em 0 2.5em -2em;
         padding: 2em
     }
-
-    #main>.inner.alt,#main>.inner.dialog {
+    #main>.inner.alt,
+    #main>.inner.dialog {
         width: 90% !important;
         padding: 2.5em 2em !important
     }
-
     #main>.inner.dialog {
         max-width: 22em !important;
         padding: 1.5em !important
@@ -3686,42 +3745,40 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 480px) {
     #main>.inner {
-        padding:1.5em 1.25em;
+        padding: 1.5em 1.25em;
         border-radius: 0;
         max-width: 100%
     }
-
     #main>.inner>.statusBar {
         width: calc(100% + 2.5em) !important;
         margin: -1.5em 0 1.5em -1.25em !important
     }
-
     #main>.inner>.infoBar {
         width: calc(100% + 2.5em);
         margin: -1.5em 0 1.5em -1.25em;
         padding: 1.5em 1.25em
     }
-
-    #main>.inner.alt,#main>.inner.dialog {
+    #main>.inner.alt,
+    #main>.inner.dialog {
         width: 100% !important;
         max-width: 100% !important;
         padding: 1.5em 1.25em !important
     }
 }
 
-#menu,#menuToggle {
+#menu,
+#menuToggle {
     display: none
 }
 
 @media screen and (max-width: 736px) {
     #wrapper {
-        -moz-transition:opacity 0.25s ease-in-out;
+        -moz-transition: opacity 0.25s ease-in-out;
         -webkit-transition: opacity 0.25s ease-in-out;
         -ms-transition: opacity 0.25s ease-in-out;
         transition: opacity 0.25s ease-in-out;
         opacity: 1.0
     }
-
     #menuToggle {
         position: absolute;
         top: 0;
@@ -3739,7 +3796,6 @@ dl.style3 dd:first-of-type {
         -ms-transition: color 0.15s ease-in-out;
         transition: color 0.15s ease-in-out
     }
-
     #menuToggle:before {
         content: "";
         -moz-osx-font-smoothing: grayscale;
@@ -3749,14 +3805,13 @@ dl.style3 dd:first-of-type {
         font-weight: normal;
         text-transform: none !important
     }
-
     #menu {
         z-index: 10001;
         position: fixed;
         width: 100%;
         display: block;
-        background: rgba(255,255,255,0.925);
-        box-shadow: inset 0 0.125em 0.0625em 0 rgba(0,0,0,0.0625),0 0.125em 0.0625em 0 rgba(0,0,0,0.0625);
+        background: rgba(255, 255, 255, 0.925);
+        box-shadow: inset 0 0.125em 0.0625em 0 rgba(0, 0, 0, 0.0625), 0 0.125em 0.0625em 0 rgba(0, 0, 0, 0.0625);
         text-align: center;
         padding: 0;
         top: 0;
@@ -3767,12 +3822,11 @@ dl.style3 dd:first-of-type {
         -webkit-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
         transform: translateY(-100%);
-        -moz-transition: -moz-transform 0.25s ease-in-out,visibility 0.25s;
-        -webkit-transition: -webkit-transform 0.25s ease-in-out,visibility 0.25s;
-        -ms-transition: -ms-transform 0.25s ease-in-out,visibility 0.25s;
-        transition: transform 0.25s ease-in-out,visibility 0.25s
+        -moz-transition: -moz-transform 0.25s ease-in-out, visibility 0.25s;
+        -webkit-transition: -webkit-transform 0.25s ease-in-out, visibility 0.25s;
+        -ms-transition: -ms-transform 0.25s ease-in-out, visibility 0.25s;
+        transition: transform 0.25s ease-in-out, visibility 0.25s
     }
-
     #menu a {
         display: inline-block;
         line-height: 6em;
@@ -3783,19 +3837,15 @@ dl.style3 dd:first-of-type {
         padding: 0;
         width: 25%
     }
-
     #menu a:first-child {
         box-shadow: none
     }
-
     #menu a:hover {
         color: #52cbee !important
     }
-
     body.is-menu-visible #wrapper {
         opacity: 0.15
     }
-
     body.is-menu-visible #menu {
         -moz-transform: translateY(0);
         -webkit-transform: translateY(0);
@@ -3807,7 +3857,7 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 480px) {
     #menu a {
-        display:block;
+        display: block;
         line-height: 3.25em;
         width: 100%;
         box-shadow: inset 0 1px 0 0 #f0f0f0
@@ -3841,12 +3891,11 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 840px) {
     .page-adboard .admin-searchBar {
-        -moz-flex-wrap:wrap;
+        -moz-flex-wrap: wrap;
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap
     }
-
     .page-adboard .admin-searchBar>.search {
         width: 100%;
         -moz-flex-grow: 1;
@@ -3859,7 +3908,6 @@ dl.style3 dd:first-of-type {
         flex-shrink: 0;
         margin-bottom: 1.25em
     }
-
     .page-adboard .admin-searchBar>.filters {
         margin-left: 0
     }
@@ -3867,7 +3915,7 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 480px) {
     .page-adboard .admin-searchBar {
-        -moz-flex-direction:column;
+        -moz-flex-direction: column;
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
@@ -3876,7 +3924,6 @@ dl.style3 dd:first-of-type {
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap
     }
-
     .page-adboard .admin-searchBar>.search {
         margin-bottom: 0
     }
@@ -3919,12 +3966,11 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 840px) {
     .page-adboard .admin-actionBar {
-        -moz-flex-direction:column;
+        -moz-flex-direction: column;
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column
     }
-
     .page-adboard .admin-actionBar>.status {
         text-align: left;
         font-size: 0.8em;
@@ -3970,26 +4016,27 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 840px) {
     .page-adboard .admin-thumbnailForm {
-        -moz-flex-direction:column;
+        -moz-flex-direction: column;
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column
     }
-
     .page-adboard .admin-thumbnailForm .thumbnail {
         width: 100%;
         margin-right: 0
     }
 }
 
-.page-adboard #main>.inner>.links>li>h2,.page-adboard #main>.inner>.links>li>h3 {
+.page-adboard #main>.inner>.links>li>h2,
+.page-adboard #main>.inner>.links>li>h3 {
     margin: 0;
     width: 8em;
     float: left;
     font-size: 1em
 }
 
-.page-adboard #main>.inner>.links>li>h2 a,.page-adboard #main>.inner>.links>li>h3 a {
+.page-adboard #main>.inner>.links>li>h2 a,
+.page-adboard #main>.inner>.links>li>h3 a {
     border: 0
 }
 
@@ -3998,10 +4045,10 @@ dl.style3 dd:first-of-type {
 }
 
 .page-adboard #update .zone {
-    -moz-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-    -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-    -ms-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    -moz-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -ms-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     border-radius: 4px;
     border: dashed 1px #dadada;
     background: #f0f0f0;
@@ -4050,7 +4097,6 @@ dl.style3 dd:first-of-type {
         -ms-transform: rotateZ(0deg);
         transform: rotateZ(0deg)
     }
-
     100% {
         -moz-transform: rotateZ(360deg);
         -webkit-transform: rotateZ(360deg);
@@ -4066,7 +4112,6 @@ dl.style3 dd:first-of-type {
         -ms-transform: rotateZ(0deg);
         transform: rotateZ(0deg)
     }
-
     100% {
         -moz-transform: rotateZ(360deg);
         -webkit-transform: rotateZ(360deg);
@@ -4082,7 +4127,6 @@ dl.style3 dd:first-of-type {
         -ms-transform: rotateZ(0deg);
         transform: rotateZ(0deg)
     }
-
     100% {
         -moz-transform: rotateZ(360deg);
         -webkit-transform: rotateZ(360deg);
@@ -4098,7 +4142,6 @@ dl.style3 dd:first-of-type {
         -ms-transform: rotateZ(0deg);
         transform: rotateZ(0deg)
     }
-
     100% {
         -moz-transform: rotateZ(360deg);
         -webkit-transform: rotateZ(360deg);
@@ -4111,7 +4154,6 @@ dl.style3 dd:first-of-type {
     0% {
         opacity: 0
     }
-
     100% {
         opacity: 1
     }
@@ -4121,7 +4163,6 @@ dl.style3 dd:first-of-type {
     0% {
         opacity: 0
     }
-
     100% {
         opacity: 1
     }
@@ -4131,7 +4172,6 @@ dl.style3 dd:first-of-type {
     0% {
         opacity: 0
     }
-
     100% {
         opacity: 1
     }
@@ -4141,7 +4181,6 @@ dl.style3 dd:first-of-type {
     0% {
         opacity: 0
     }
-
     100% {
         opacity: 1
     }
@@ -4151,7 +4190,6 @@ dl.style3 dd:first-of-type {
     0% {
         font-size: 3rem
     }
-
     100% {
         opacity: 0;
         font-size: 1.5rem
@@ -4162,7 +4200,6 @@ dl.style3 dd:first-of-type {
     0% {
         font-size: 3rem
     }
-
     100% {
         opacity: 0;
         font-size: 1.5rem
@@ -4173,7 +4210,6 @@ dl.style3 dd:first-of-type {
     0% {
         font-size: 3rem
     }
-
     100% {
         opacity: 0;
         font-size: 1.5rem
@@ -4184,7 +4220,6 @@ dl.style3 dd:first-of-type {
     0% {
         font-size: 3rem
     }
-
     100% {
         opacity: 0;
         font-size: 1.5rem
@@ -4214,10 +4249,10 @@ dl.style3 dd:first-of-type {
     -webkit-transition: opacity 0.5s ease-in-out;
     -ms-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
-    -moz-animation: fade-out 0s 0.05s 1 forwards,spin 1s infinite linear;
-    -webkit-animation: fade-out 0s 0.05s 1 forwards,spin 1s infinite linear;
-    -ms-animation: fade-out 0s 0.05s 1 forwards,spin 1s infinite linear;
-    animation: fade-out 0s 0.05s 1 forwards,spin 1s infinite linear;
+    -moz-animation: fade-out 0s 0.05s 1 forwards, spin 1s infinite linear;
+    -webkit-animation: fade-out 0s 0.05s 1 forwards, spin 1s infinite linear;
+    -ms-animation: fade-out 0s 0.05s 1 forwards, spin 1s infinite linear;
+    animation: fade-out 0s 0.05s 1 forwards, spin 1s infinite linear;
     -moz-pointer-events: none;
     -webkit-pointer-events: none;
     -ms-pointer-events: none;
@@ -4236,14 +4271,14 @@ dl.style3 dd:first-of-type {
     height: 4rem;
     margin: -2rem 0 0 -2rem;
     opacity: 0;
-    color: rgba(255,255,255,0.1)
+    color: rgba(255, 255, 255, 0.1)
 }
 
 .page-item #details {
-    -moz-transition: background-color 0.5s ease,width 0.5s ease,height 0.5s ease,box-shadow 0.5s ease;
-    -webkit-transition: background-color 0.5s ease,width 0.5s ease,height 0.5s ease,box-shadow 0.5s ease;
-    -ms-transition: background-color 0.5s ease,width 0.5s ease,height 0.5s ease,box-shadow 0.5s ease;
-    transition: background-color 0.5s ease,width 0.5s ease,height 0.5s ease,box-shadow 0.5s ease;
+    -moz-transition: background-color 0.5s ease, width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease;
+    -webkit-transition: background-color 0.5s ease, width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease;
+    -ms-transition: background-color 0.5s ease, width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease;
+    transition: background-color 0.5s ease, width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease;
     position: fixed;
     top: 0;
     width: 21em;
@@ -4412,12 +4447,14 @@ dl.style3 dd:first-of-type {
     margin: 0 0 1em 0
 }
 
-.page-item #details .properties dl>:nth-child(1),.page-item #details .properties dl>:nth-child(2) {
+.page-item #details .properties dl>:nth-child(1),
+.page-item #details .properties dl>:nth-child(2) {
     border-top: 0;
     padding: 0
 }
 
-.page-item #details .properties dl>:nth-last-child(1),.page-item #details .properties dl>:nth-last-child(2) {
+.page-item #details .properties dl>:nth-last-child(1),
+.page-item #details .properties dl>:nth-last-child(2) {
     margin: 0
 }
 
@@ -4446,11 +4483,21 @@ dl.style3 dd:first-of-type {
     width: calc(100% - 8em)
 }
 
-.page-item #details .properties .schemes,.page-item #details .properties .layouts,.page-item #details .properties .sizes,.page-item.is-mobile #details .properties .schemes,.page-item.is-mobile #details .properties .layouts,.page-item.is-mobile #details .properties .sizes {
+.page-item #details .properties .schemes,
+.page-item #details .properties .layouts,
+.page-item #details .properties .sizes,
+.page-item.is-mobile #details .properties .schemes,
+.page-item.is-mobile #details .properties .layouts,
+.page-item.is-mobile #details .properties .sizes {
     margin: -0.5em 0 0 -1.075em
 }
 
-.page-item #details .properties .schemes>li,.page-item #details .properties .layouts>li,.page-item #details .properties .sizes>li,.page-item.is-mobile #details .properties .schemes>li,.page-item.is-mobile #details .properties .layouts>li,.page-item.is-mobile #details .properties .sizes>li {
+.page-item #details .properties .schemes>li,
+.page-item #details .properties .layouts>li,
+.page-item #details .properties .sizes>li,
+.page-item.is-mobile #details .properties .schemes>li,
+.page-item.is-mobile #details .properties .layouts>li,
+.page-item.is-mobile #details .properties .sizes>li {
     border-radius: 4px;
     cursor: pointer;
     display: inline-block;
@@ -4459,17 +4506,19 @@ dl.style3 dd:first-of-type {
     line-height: 2.25em;
     vertical-align: middle;
     padding: 0 0.825em;
-    -moz-transition: background-color 0.15s ease-in-out,color 0.15s ease-in-out;
-    -webkit-transition: background-color 0.15s ease-in-out,color 0.15s ease-in-out;
-    -ms-transition: background-color 0.15s ease-in-out,color 0.15s ease-in-out;
-    transition: background-color 0.15s ease-in-out,color 0.15s ease-in-out;
+    -moz-transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+    -webkit-transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+    -ms-transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none
 }
 
-.page-item #details .properties .schemes>li:not(.active):hover,.page-item #details .properties .layouts>li:not(.active):hover,.page-item #details .properties .sizes>li:not(.active):hover {
+.page-item #details .properties .schemes>li:not(.active):hover,
+.page-item #details .properties .layouts>li:not(.active):hover,
+.page-item #details .properties .sizes>li:not(.active):hover {
     color: #52cbee
 }
 
@@ -4686,10 +4735,10 @@ dl.style3 dd:first-of-type {
     -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
-    -moz-transition: opacity 1.5s ease,width 0.5s ease,height 0.5s ease;
-    -webkit-transition: opacity 1.5s ease,width 0.5s ease,height 0.5s ease;
-    -ms-transition: opacity 1.5s ease,width 0.5s ease,height 0.5s ease;
-    transition: opacity 1.5s ease,width 0.5s ease,height 0.5s ease;
+    -moz-transition: opacity 1.5s ease, width 0.5s ease, height 0.5s ease;
+    -webkit-transition: opacity 1.5s ease, width 0.5s ease, height 0.5s ease;
+    -ms-transition: opacity 1.5s ease, width 0.5s ease, height 0.5s ease;
+    transition: opacity 1.5s ease, width 0.5s ease, height 0.5s ease;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -4701,18 +4750,18 @@ dl.style3 dd:first-of-type {
 }
 
 .page-item #viewer .frame {
-    -moz-transition: width 0.75s ease,height 0.75s ease,box-shadow 0.75s ease,border-radius 0.75s ease;
-    -webkit-transition: width 0.75s ease,height 0.75s ease,box-shadow 0.75s ease,border-radius 0.75s ease;
-    -ms-transition: width 0.75s ease,height 0.75s ease,box-shadow 0.75s ease,border-radius 0.75s ease;
-    transition: width 0.75s ease,height 0.75s ease,box-shadow 0.75s ease,border-radius 0.75s ease;
+    -moz-transition: width 0.75s ease, height 0.75s ease, box-shadow 0.75s ease, border-radius 0.75s ease;
+    -webkit-transition: width 0.75s ease, height 0.75s ease, box-shadow 0.75s ease, border-radius 0.75s ease;
+    -ms-transition: width 0.75s ease, height 0.75s ease, box-shadow 0.75s ease, border-radius 0.75s ease;
+    transition: width 0.75s ease, height 0.75s ease, box-shadow 0.75s ease, border-radius 0.75s ease;
     border-radius: 0.25em
 }
 
 .page-item #viewer .frame iframe {
-    -moz-transition: width 0.75s ease,height 0.75s ease,max-height 0.75s ease,max-width 0.75s ease,border-radius 0.75s ease;
-    -webkit-transition: width 0.75s ease,height 0.75s ease,max-height 0.75s ease,max-width 0.75s ease,border-radius 0.75s ease;
-    -ms-transition: width 0.75s ease,height 0.75s ease,max-height 0.75s ease,max-width 0.75s ease,border-radius 0.75s ease;
-    transition: width 0.75s ease,height 0.75s ease,max-height 0.75s ease,max-width 0.75s ease,border-radius 0.75s ease;
+    -moz-transition: width 0.75s ease, height 0.75s ease, max-height 0.75s ease, max-width 0.75s ease, border-radius 0.75s ease;
+    -webkit-transition: width 0.75s ease, height 0.75s ease, max-height 0.75s ease, max-width 0.75s ease, border-radius 0.75s ease;
+    -ms-transition: width 0.75s ease, height 0.75s ease, max-height 0.75s ease, max-width 0.75s ease, border-radius 0.75s ease;
+    transition: width 0.75s ease, height 0.75s ease, max-height 0.75s ease, max-width 0.75s ease, border-radius 0.75s ease;
     display: block;
     max-height: calc(100vh - 6em);
     max-width: calc(100vw - 6em)
@@ -4753,9 +4802,8 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-height: 1180px) {
     .page-item #viewer .frame iframe {
-        max-height:calc(100vh - 3em)
+        max-height: calc(100vh - 3em)
     }
-
     .page-item #viewer.tablet-portrait {
         -moz-align-items: -moz-flex-end;
         -webkit-align-items: -webkit-flex-end;
@@ -4770,7 +4818,7 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-height: 860px) {
     .page-item #viewer.tablet-landscape {
-        -moz-align-items:-moz-flex-end;
+        -moz-align-items: -moz-flex-end;
         -webkit-align-items: -webkit-flex-end;
         -ms-align-items: -ms-flex-end;
         align-items: flex-end;
@@ -4783,7 +4831,7 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-height: 720px) {
     .page-item #viewer.mobile-portrait {
-        -moz-align-items:-moz-flex-end;
+        -moz-align-items: -moz-flex-end;
         -webkit-align-items: -webkit-flex-end;
         -ms-align-items: -ms-flex-end;
         align-items: flex-end;
@@ -4796,22 +4844,21 @@ dl.style3 dd:first-of-type {
 
 @media screen and (orientation: portrait) {
     .page-item #details {
-        top:auto;
+        top: auto;
         bottom: 0;
         width: 100%;
         height: 40vh
     }
-
     .page-item #details .inner {
         width: 100vw
     }
 }
 
 .page-item.is-frame-loading:before {
-    -moz-animation: fade-in 1s 1s 1 forwards,spin 1s infinite linear;
-    -webkit-animation: fade-in 1s 1s 1 forwards,spin 1s infinite linear;
-    -ms-animation: fade-in 1s 1s 1 forwards,spin 1s infinite linear;
-    animation: fade-in 1s 1s 1 forwards,spin 1s infinite linear
+    -moz-animation: fade-in 1s 1s 1 forwards, spin 1s infinite linear;
+    -webkit-animation: fade-in 1s 1s 1 forwards, spin 1s infinite linear;
+    -ms-animation: fade-in 1s 1s 1 forwards, spin 1s infinite linear;
+    animation: fade-in 1s 1s 1 forwards, spin 1s infinite linear
 }
 
 .page-item.is-frame-loading #viewer {
@@ -4831,17 +4878,17 @@ dl.style3 dd:first-of-type {
 }
 
 .page-item.is-changing #viewer .frame {
-    -moz-transition: width 0.5s ease,height 0.5s ease,box-shadow 0.5s ease,border-radius 0.5s ease;
-    -webkit-transition: width 0.5s ease,height 0.5s ease,box-shadow 0.5s ease,border-radius 0.5s ease;
-    -ms-transition: width 0.5s ease,height 0.5s ease,box-shadow 0.5s ease,border-radius 0.5s ease;
-    transition: width 0.5s ease,height 0.5s ease,box-shadow 0.5s ease,border-radius 0.5s ease
+    -moz-transition: width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease, border-radius 0.5s ease;
+    -webkit-transition: width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease, border-radius 0.5s ease;
+    -ms-transition: width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease, border-radius 0.5s ease;
+    transition: width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease, border-radius 0.5s ease
 }
 
 .page-item.is-changing #viewer .frame iframe {
-    -moz-transition: width 0.5s ease,height 0.5s ease,max-height 0.5s ease,max-width 0.5s ease,border-radius 0.5s ease;
-    -webkit-transition: width 0.5s ease,height 0.5s ease,max-height 0.5s ease,max-width 0.5s ease,border-radius 0.5s ease;
-    -ms-transition: width 0.5s ease,height 0.5s ease,max-height 0.5s ease,max-width 0.5s ease,border-radius 0.5s ease;
-    transition: width 0.5s ease,height 0.5s ease,max-height 0.5s ease,max-width 0.5s ease,border-radius 0.5s ease
+    -moz-transition: width 0.5s ease, height 0.5s ease, max-height 0.5s ease, max-width 0.5s ease, border-radius 0.5s ease;
+    -webkit-transition: width 0.5s ease, height 0.5s ease, max-height 0.5s ease, max-width 0.5s ease, border-radius 0.5s ease;
+    -ms-transition: width 0.5s ease, height 0.5s ease, max-height 0.5s ease, max-width 0.5s ease, border-radius 0.5s ease;
+    transition: width 0.5s ease, height 0.5s ease, max-height 0.5s ease, max-width 0.5s ease, border-radius 0.5s ease
 }
 
 .page-item.is-minimized #details {
@@ -4904,13 +4951,15 @@ dl.style3 dd:first-of-type {
     display: none
 }
 
-.page-item.is-minimized #details .properties .schemes,.page-item.is-minimized #details .properties .sizes {
+.page-item.is-minimized #details .properties .schemes,
+.page-item.is-minimized #details .properties .sizes {
     margin: 1em 0 0 0;
     padding: 1em 0 0 0;
     border-top: solid 1px
 }
 
-.page-item.is-minimized #details .properties .schemes>li,.page-item.is-minimized #details .properties .sizes>li {
+.page-item.is-minimized #details .properties .schemes>li,
+.page-item.is-minimized #details .properties .sizes>li {
     display: block;
     height: auto;
     line-height: auto;
@@ -4999,9 +5048,8 @@ dl.style3 dd:first-of-type {
 
 @media screen and (orientation: portrait) {
     .page-item.is-minimized #details {
-        height:100%
+        height: 100%
     }
-
     .page-item.is-minimized #details .inner {
         width: auto
     }
@@ -5009,18 +5057,15 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 1340px) {
     .page-item #details .properties dl dt[data-row="sizes"] {
-        display:none
+        display: none
     }
-
     .page-item #details .properties dl dd[data-row="sizes"] {
         display: none
     }
-
     .page-item #viewer .frame {
         box-shadow: none !important;
         border-radius: 0 !important
     }
-
     .page-item #viewer .frame iframe {
         width: 100vw !important;
         height: 100vh !important;
@@ -5028,7 +5073,6 @@ dl.style3 dd:first-of-type {
         max-height: 100vh !important;
         border-radius: 0 !important
     }
-
     .page-item.is-minimized #viewer .frame iframe {
         width: calc(100vw - 3em) !important;
         max-width: 100% !important
@@ -5055,11 +5099,15 @@ dl.style3 dd:first-of-type {
     display: none
 }
 
-.page-item.is-mobile #details .properties .schemes>li,.page-item.is-mobile #details .properties .layouts>li,.page-item.is-mobile #details .properties .sizes>li {
+.page-item.is-mobile #details .properties .schemes>li,
+.page-item.is-mobile #details .properties .layouts>li,
+.page-item.is-mobile #details .properties .sizes>li {
     cursor: default
 }
 
-.page-item.is-mobile #details .properties .schemes>li:hover,.page-item.is-mobile #details .properties .layouts>li:hover,.page-item.is-mobile #details .properties .sizes>li:hover {
+.page-item.is-mobile #details .properties .schemes>li:hover,
+.page-item.is-mobile #details .properties .layouts>li:hover,
+.page-item.is-mobile #details .properties .sizes>li:hover {
     color: inherit
 }
 
@@ -5121,7 +5169,8 @@ dl.style3 dd:first-of-type {
     color: #fff !important
 }
 
-.page-item.is-mobile #viewer .alt-frame>.actions .button:hover,.page-item.is-mobile #viewer .alt-frame>.actions .button:active {
+.page-item.is-mobile #viewer .alt-frame>.actions .button:hover,
+.page-item.is-mobile #viewer .alt-frame>.actions .button:active {
     background: #fff !important;
     color: #333 !important
 }
@@ -5137,9 +5186,8 @@ dl.style3 dd:first-of-type {
 
 @media screen and (orientation: portrait) {
     .page-item.is-mobile #details {
-        height:55vh
+        height: 55vh
     }
-
     .page-item.is-mobile #viewer {
         width: 100%;
         height: calc(100% - 55vh)
@@ -5183,11 +5231,13 @@ dl.style3 dd:first-of-type {
 }
 
 .page-item.color-normal #details {
-    background-color: rgba(255,255,255,0.95);
+    background-color: rgba(255, 255, 255, 0.95);
     color: #888
 }
 
-.page-item.color-normal #details h1,.page-item.color-normal #details h2,.page-item.color-normal #details h3 {
+.page-item.color-normal #details h1,
+.page-item.color-normal #details h2,
+.page-item.color-normal #details h3 {
     color: #555
 }
 
@@ -5207,9 +5257,11 @@ dl.style3 dd:first-of-type {
     color: #555
 }
 
-.page-item.color-normal #details .properties .schemes>li.active,.page-item.color-normal #details .properties .layouts>li.active,.page-item.color-normal #details .properties .sizes>li.active {
+.page-item.color-normal #details .properties .schemes>li.active,
+.page-item.color-normal #details .properties .layouts>li.active,
+.page-item.color-normal #details .properties .sizes>li.active {
     color: #555;
-    background: rgba(144,144,144,0.2)
+    background: rgba(144, 144, 144, 0.2)
 }
 
 .page-item.color-normal #details .properties .schemes>li .scheme li.outline {
@@ -5232,7 +5284,9 @@ dl.style3 dd:first-of-type {
     background-color: #fff
 }
 
-.page-item.color-normal.is-minimized #details .properties .schemes,.page-item.color-normal.is-minimized #details .properties .layouts,.page-item.color-normal.is-minimized #details .properties .sizes {
+.page-item.color-normal.is-minimized #details .properties .schemes,
+.page-item.color-normal.is-minimized #details .properties .layouts,
+.page-item.color-normal.is-minimized #details .properties .sizes {
     border-top-color: #dadada
 }
 
@@ -5245,23 +5299,25 @@ dl.style3 dd:first-of-type {
 }
 
 .page-item.color-normal #viewer .frame iframe {
-    box-shadow: 0 0 0 1px rgba(218,218,218,0.5)
+    box-shadow: 0 0 0 1px rgba(218, 218, 218, 0.5)
 }
 
 .page-item.color-normal #details {
-    box-shadow: 0 0 1em 0 rgba(0,0,0,0.15)
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.15)
 }
 
 .page-item.color-normal.is-minimized {
-    box-shadow: 0 0 0.2em 0 rgba(0,0,0,0.15)
+    box-shadow: 0 0 0.2em 0 rgba(0, 0, 0, 0.15)
 }
 
 .page-item.color-invert #details {
-    background-color: rgba(41,41,41,0.975);
+    background-color: rgba(41, 41, 41, 0.975);
     color: #aaa
 }
 
-.page-item.color-invert #details h1,.page-item.color-invert #details h2,.page-item.color-invert #details h3 {
+.page-item.color-invert #details h1,
+.page-item.color-invert #details h2,
+.page-item.color-invert #details h3 {
     color: #fff
 }
 
@@ -5281,9 +5337,11 @@ dl.style3 dd:first-of-type {
     color: #fff
 }
 
-.page-item.color-invert #details .properties .schemes>li.active,.page-item.color-invert #details .properties .layouts>li.active,.page-item.color-invert #details .properties .sizes>li.active {
+.page-item.color-invert #details .properties .schemes>li.active,
+.page-item.color-invert #details .properties .layouts>li.active,
+.page-item.color-invert #details .properties .sizes>li.active {
     color: #fff;
-    background: rgba(170,170,170,0.1)
+    background: rgba(170, 170, 170, 0.1)
 }
 
 .page-item.color-invert #details .properties .schemes>li .scheme li.outline {
@@ -5306,7 +5364,9 @@ dl.style3 dd:first-of-type {
     background-color: #292929
 }
 
-.page-item.color-invert.is-minimized #details .properties .schemes,.page-item.color-invert.is-minimized #details .properties .layouts,.page-item.color-invert.is-minimized #details .properties .sizes {
+.page-item.color-invert.is-minimized #details .properties .schemes,
+.page-item.color-invert.is-minimized #details .properties .layouts,
+.page-item.color-invert.is-minimized #details .properties .sizes {
     border-top-color: #444
 }
 
@@ -5319,7 +5379,7 @@ dl.style3 dd:first-of-type {
 }
 
 .page-item.color-invert #viewer .frame iframe {
-    box-shadow: 0 0 0 1px rgba(68,68,68,0.5)
+    box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.5)
 }
 
 .page-item.layout-normal #details {
@@ -5374,7 +5434,7 @@ dl.style3 dd:first-of-type {
 
 @media screen and (orientation: portrait) {
     .page-item.layout-flip #details>.actions {
-        left:auto;
+        left: auto;
         right: 0.5em;
         -moz-flex-direction: row-reverse;
         -webkit-flex-direction: row-reverse;
@@ -5404,7 +5464,7 @@ dl.style3 dd:first-of-type {
 
 .page-landing #banner .button.alt:hover {
     color: inherit !important;
-    background: rgba(255,255,255,0.25)
+    background: rgba(255, 255, 255, 0.25)
 }
 
 .page-landing #banner:after {
@@ -5415,7 +5475,7 @@ dl.style3 dd:first-of-type {
     position: absolute;
     left: 0;
     top: 0;
-    background-image: url("../images/bg.svg"),url("../images/banner.jpg");
+    background-image: url("../images/bg.svg"), url("../images/banner.jpg");
     background-attachment: scroll, fixed;
     background-size: auto, cover;
     background-position: bottom center, top center;
@@ -5433,10 +5493,10 @@ dl.style3 dd:first-of-type {
 .page-landing #banner .inner {
     opacity: 1;
     position: relative;
-    -moz-transition: opacity 0.75s ease-in-out,-moz-transform 0.5s ease-in-out,-moz-filter 0.5s ease-in-out;
-    -webkit-transition: opacity 0.75s ease-in-out,-webkit-transform 0.5s ease-in-out,-webkit-filter 0.5s ease-in-out;
-    -ms-transition: opacity 0.75s ease-in-out,-ms-transform 0.5s ease-in-out,-ms-filter 0.5s ease-in-out;
-    transition: opacity 0.75s ease-in-out,transform 0.5s ease-in-out,filter 0.5s ease-in-out
+    -moz-transition: opacity 0.75s ease-in-out, -moz-transform 0.5s ease-in-out, -moz-filter 0.5s ease-in-out;
+    -webkit-transition: opacity 0.75s ease-in-out, -webkit-transform 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;
+    -ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.5s ease-in-out, -ms-filter 0.5s ease-in-out;
+    transition: opacity 0.75s ease-in-out, transform 0.5s ease-in-out, filter 0.5s ease-in-out
 }
 
 .page-landing #banner .inner:before {
@@ -5601,7 +5661,7 @@ dl.style3 dd:first-of-type {
 }
 
 .page-landing.is-loggedOut #header.alt nav a:not(.button):hover {
-    background: rgba(255,255,255,0.15);
+    background: rgba(255, 255, 255, 0.15);
     color: inherit !important
 }
 
@@ -5616,7 +5676,7 @@ dl.style3 dd:first-of-type {
 
 .page-landing.is-loggedOut #header.alt nav a.button.alt:hover {
     color: inherit !important;
-    background: rgba(255,255,255,0.25)
+    background: rgba(255, 255, 255, 0.25)
 }
 
 .page-landing.is-loggedOut #header.alt #menuToggle {
@@ -5626,13 +5686,13 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 736px) {
     .page-landing.is-loggedOut #header.alt {
-        top:0
+        top: 0
     }
 }
 
 .page-landing.is-loggedOut #footer {
     background-color: #aaa;
-    background-image: url("../images/bg.svg"),url("../images/banner.jpg");
+    background-image: url("../images/bg.svg"), url("../images/banner.jpg");
     background-attachment: scroll, fixed;
     background-size: 25em, cover;
     background-position: top center, bottom center;
@@ -5641,7 +5701,7 @@ dl.style3 dd:first-of-type {
 }
 
 .page-landing.is-loggedOut #footer .share {
-    border-color: rgba(255,255,255,0.35)
+    border-color: rgba(255, 255, 255, 0.35)
 }
 
 .page-landing.is-loggedIn #banner {
@@ -5679,24 +5739,20 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 1680px) {
     .page-landing #banner {
-        padding:10em 0 7em 0
+        padding: 10em 0 7em 0
     }
-
     .page-landing #banner .inner:before {
         font-size: 30px
     }
-
     .page-landing #banner .inner p {
         font-size: 1.25em;
         letter-spacing: -0.0225em;
         line-height: 1.65em;
         font-weight: 400
     }
-
     .page-landing #banner .inner .features li {
         width: 9em
     }
-
     .page-landing #banner .inner .features li span {
         font-size: 1em;
         letter-spacing: -0.01em;
@@ -5705,23 +5761,18 @@ dl.style3 dd:first-of-type {
         line-height: 1.35em;
         padding: 0.75em 0
     }
-
     .page-landing #banner .inner .features li:before {
         font-size: 42px
     }
-
     .page-landing #items {
         padding: 4em 0
     }
-
     .page-landing #pricing {
         padding: 4em 0
     }
-
     .page-landing.is-loggedOut #footer {
         padding: 4em 0 8em 0
     }
-
     .page-landing.is-loggedIn #items {
         padding: 6.5em 0 0 0
     }
@@ -5729,23 +5780,19 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 1340px) {
     .page-landing #banner {
-        padding:8em 0 6em 0
+        padding: 8em 0 6em 0
     }
-
     .page-landing #banner:after {
         background-attachment: scroll
     }
-
     .page-landing.is-loggedOut #footer {
         padding: 2em 0 6em 0;
         background: none;
         color: inherit
     }
-
     .page-landing.is-loggedOut #footer .share {
         border-color: #dadada
     }
-
     .page-landing.is-loggedIn #items {
         padding: 4em 0 0 0
     }
@@ -5753,35 +5800,28 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 980px) {
     .page-landing #banner {
-        padding:10em 4em 6em 4em
+        padding: 10em 4em 6em 4em
     }
-
     .page-landing #banner .inner p br {
         display: none
     }
-
     .page-landing #banner .inner .features {
         margin: 2em auto;
         width: 28em
     }
-
     .page-landing #banner .inner .features li:nth-child(3):before {
         border-radius: 0 6px 6px 0
     }
-
     .page-landing #banner .inner .features li:nth-child(3) span {
         border-right-width: 0
     }
-
     .page-landing #banner .inner .features li:nth-child(4):before {
         border-left-width: 1px;
         border-radius: 6px 0 0 6px
     }
-
     .page-landing #pricing {
         padding: 4em
     }
-
     .page-landing #pricing br {
         display: none
     }
@@ -5789,17 +5829,14 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 840px) {
     .page-landing #banner {
-        padding:10em 4em 8em 4em
+        padding: 10em 4em 8em 4em
     }
-
     .page-landing #banner:after {
-        background-image: url("../images/bg2.svg"),url("../images/banner.jpg")
+        background-image: url("../images/bg2.svg"), url("../images/banner.jpg")
     }
-
     .page-landing #items {
         padding: 4em 0
     }
-
     .page-landing #pricing {
         padding: 4em
     }
@@ -5807,13 +5844,11 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 736px) {
     .page-landing #banner {
-        padding:4em 1.5em 4em 1.5em
+        padding: 4em 1.5em 4em 1.5em
     }
-
     .page-landing #banner:after {
-        background-image: url("../images/bg3.svg"),url("../images/banner.jpg")
+        background-image: url("../images/bg3.svg"), url("../images/banner.jpg")
     }
-
     .page-landing #banner .inner:before {
         content: "  ";
         -moz-osx-font-smoothing: grayscale;
@@ -5823,47 +5858,38 @@ dl.style3 dd:first-of-type {
         font-weight: normal;
         text-transform: none !important
     }
-
     .page-landing #banner .inner:before {
         font-size: 20px;
         margin: 0 0 1.25em 0
     }
-
     .page-landing #banner .inner>p {
         font-size: 1em;
         letter-spacing: -0.01em;
         line-height: 1.65em;
         font-weight: 400
     }
-
     .page-landing #banner .inner .features {
         width: 100%;
         text-align: center;
         margin: 1.5em 0
     }
-
     .page-landing #banner .inner .features li {
         width: 3em
     }
-
     .page-landing #banner .inner .features li:before {
         border: 0;
         padding: 0;
         font-size: 26px
     }
-
     .page-landing #banner .inner .features li span {
         display: none
     }
-
     .page-landing #items {
         padding: 3em 0
     }
-
     .page-landing #pricing {
         padding: 3em 1.5em
     }
-
     .page-landing.is-loggedIn #items {
         padding: 3.5em 0 0 0
     }
@@ -5871,7 +5897,7 @@ dl.style3 dd:first-of-type {
 
 @media screen and (max-width: 480px) {
     .page-landing #banner {
-        padding:6em 1.5em 4em 1.5em
+        padding: 6em 1.5em 4em 1.5em
     }
 }
 
@@ -5881,5 +5907,5 @@ dl.style3 dd:first-of-type {
 
 .page-login .note a {
     color: inherit;
-    border-bottom-color: rgba(136,136,136,0.5)
+    border-bottom-color: rgba(136, 136, 136, 0.5)
 }
