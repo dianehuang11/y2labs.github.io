@@ -15,7 +15,6 @@
     if (event.target.innerHTML) {
       var nextTarget = document.getElementById(event.target.innerHTML.toLowerCase().replace(' ', '_'));
       if (nextTarget) {
-        console.log(nextTarget.clientHeight);
         window.scroll({
           top: findPos(nextTarget) - nextTarget.clientHeight * 3, 
           left: 0, 
