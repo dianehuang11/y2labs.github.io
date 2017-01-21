@@ -1529,7 +1529,7 @@ body {
 
 body {
     background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("/downloads/13217139_728375357303483_7525824813556430080_o.jpg");
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8));
     background-size: auto, cover;
     background-attachment: fixed, fixed;
     background-position: center, center;
