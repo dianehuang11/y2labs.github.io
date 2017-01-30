@@ -163,11 +163,12 @@ tr {
     position: fixed;
     transform: translateY(100px);
     height: 40px;
-    width: 100%;
+    width: 100vw;
     bottom: 0px;
     background: black;
     transition: all 0.4s;
     display: flex;
+    overflow: hidden;
     align-items: center;
     justify-content: center;
 }
@@ -176,6 +177,8 @@ tr {
     list-style: none;
     margin: 0px;
     padding: 0px;
+    white-space: nowrap;
+    overflow: scroll;
 }
 
 .volunteerPage__navigation ul li {
@@ -240,4 +243,34 @@ tr {
 
 .nav-mobile ul li a {
     border-bottom: none;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: initial;
+}
+
+.cool-button button {
+    width: 40%;
+    min-width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+    display: block;
+
+    border-radius: 0;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+@media screen and (max-width: 800px) {
+    .mobile-only {
+        display: initial;
+    }
+    .desktop-only {
+        display: none;
+    }
 }
