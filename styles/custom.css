@@ -259,7 +259,6 @@ tr {
     line-height: 40px;
     background-color: black;
     display: block;
-
     border-radius: 0;
     border-top-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -272,4 +271,8 @@ tr {
     .desktop-only {
         display: none;
     }
+}
+
+.blackText li {
+    color: black !important;
 }
